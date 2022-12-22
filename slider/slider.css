@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:8% 0 8% 0;
+}
+
+.card {
+    width: 420px;
+    height: 420px;
+    border-radius: 5px;
+}
+
+.card-img-top {
+    width: 420px;
+    height: 250px;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-footer button {
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-color:blueviolet;
+    border-radius: 3px;
+    color: white;
+}
